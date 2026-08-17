@@ -1,0 +1,108 @@
+/* Sample Data */
+
+/* 
+const messages = [
+  "Learn React ⚛️",
+  "Apply for jobs 💼",
+  "Invest your new income 🤑",
+];
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.inter-300 {
+    font-family: 'Inter', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+body {
+    color: #333;
+    font-family: 'Inter', sans-serif;
+}
+
+.steps {
+    background-color: #f7f7f7;
+    border-radius: 7px;
+    margin: 100px auto;
+    padding: 25px 100px;
+    width: 600px;
+}
+
+.numbers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.numbers > div {
+    align-items: center;
+    aspect-ratio: 1;
+    background-color: #e7e7e7;
+    border-radius: 50%;
+    display: flex;
+    height: 40px;
+    font-size: 18px;
+    justify-content: center;
+}
+
+.numbers .active {
+    background-color: #7950f2;
+    color: #fff;
+}
+
+.message {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 40px 0;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button {
+    align-items: center;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    display: flex;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    gap: 10px;
+}
+
+.buttons button span {
+    font-size: 16px;
+    line-height: 1;
+}
+
+h3 {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.close {
+    background: none;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    font-size: 40px;
+    position: absolute;
+    right: 16px;
+    top: 16px;
+}
+
+.close:hover {
+    color: #7950f2;
+}
